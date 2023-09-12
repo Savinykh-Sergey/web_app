@@ -106,7 +106,7 @@
     let second_person = document.getElementsByClassName("button button2");
     tg.expand();
     first_person.addEventListener("click", () => {
-        let person = document.getElementsByClassName("button button1").name;
+        let person = document.getElementsByClassName("label label1").text;
         tg.sendData(person);
         tg.close();
     });
